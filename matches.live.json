@@ -12,7 +12,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.1
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "559715",
@@ -27,22 +28,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.0
-  },
-  {
-    "match_id": "560542",
-    "league": "PL",
-    "home": "Arsenal FC",
-    "away": "Coventry City FC",
-    "ko_time": "2026-08-21T19:00:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.35,
-    "away_gpg": 1.35,
-    "home_gcpg": 1.35,
-    "away_gcpg": 1.35,
-    "h2h_draws_last8": 0,
-    "draw_odds": 7.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564647",
@@ -57,29 +44,15 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.4
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "561784",
-    "league": "ELC",
-    "home": "Millwall FC",
-    "away": "Norwich City FC",
-    "ko_time": "2026-08-22T11:30:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.5
-  },
-  {
-    "match_id": "560543",
+    "match_id": "560542",
     "league": "PL",
-    "home": "Hull City AFC",
-    "away": "Manchester United FC",
-    "ko_time": "2026-08-22T11:30:00Z",
+    "home": "Arsenal FC",
+    "away": "Coventry City FC",
+    "ko_time": "2026-08-21T19:00:00Z",
     "home_draw_pct": 26.0,
     "away_draw_pct": 26.0,
     "home_gpg": 1.35,
@@ -87,22 +60,8 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.0
-  },
-  {
-    "match_id": "561773",
-    "league": "ELC",
-    "home": "Birmingham City FC",
-    "away": "Bristol City FC",
-    "ko_time": "2026-08-22T11:30:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.7
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "561781",
@@ -117,29 +76,15 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.4
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "561782",
-    "league": "ELC",
-    "home": "Southampton FC",
-    "away": "Stoke City FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 4.0
-  },
-  {
-    "match_id": "560544",
+    "match_id": "560543",
     "league": "PL",
-    "home": "Ipswich Town FC",
-    "away": "Sunderland AFC",
-    "ko_time": "2026-08-22T14:00:00Z",
+    "home": "Hull City AFC",
+    "away": "Manchester United FC",
+    "ko_time": "2026-08-22T11:30:00Z",
     "home_draw_pct": 26.0,
     "away_draw_pct": 26.0,
     "home_gpg": 1.35,
@@ -147,14 +92,15 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.3
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "561778",
+    "match_id": "561773",
     "league": "ELC",
-    "home": "Preston North End FC",
-    "away": "Wolverhampton Wanderers FC",
-    "ko_time": "2026-08-22T14:00:00Z",
+    "home": "Birmingham City FC",
+    "away": "Bristol City FC",
+    "ko_time": "2026-08-22T11:30:00Z",
     "home_draw_pct": 28.0,
     "away_draw_pct": 28.0,
     "home_gpg": 1.3,
@@ -162,14 +108,15 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.6
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "561774",
+    "match_id": "561784",
     "league": "ELC",
-    "home": "Swansea City AFC",
-    "away": "Sheffield United FC",
-    "ko_time": "2026-08-22T14:00:00Z",
+    "home": "Millwall FC",
+    "away": "Norwich City FC",
+    "ko_time": "2026-08-22T11:30:00Z",
     "home_draw_pct": 28.0,
     "away_draw_pct": 28.0,
     "home_gpg": 1.3,
@@ -177,97 +124,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.5
-  },
-  {
-    "match_id": "560546",
-    "league": "PL",
-    "home": "Everton FC",
-    "away": "Crystal Palace FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.35,
-    "away_gpg": 1.35,
-    "home_gcpg": 1.35,
-    "away_gcpg": 1.35,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.4
-  },
-  {
-    "match_id": "561780",
-    "league": "ELC",
-    "home": "Blackburn Rovers FC",
-    "away": "Middlesbrough FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.4
-  },
-  {
-    "match_id": "561777",
-    "league": "ELC",
-    "home": "Derby County FC",
-    "away": "Cardiff City FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.5
-  },
-  {
-    "match_id": "561783",
-    "league": "ELC",
-    "home": "Queens Park Rangers FC",
-    "away": "Bolton Wanderers FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.6
-  },
-  {
-    "match_id": "560545",
-    "league": "PL",
-    "home": "Nottingham Forest FC",
-    "away": "Leeds United FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.35,
-    "away_gpg": 1.35,
-    "home_gcpg": 1.35,
-    "away_gcpg": 1.35,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.4
-  },
-  {
-    "match_id": "561779",
-    "league": "ELC",
-    "home": "Wrexham AFC",
-    "away": "Watford FC",
-    "ko_time": "2026-08-22T14:00:00Z",
-    "home_draw_pct": 28.0,
-    "away_draw_pct": 28.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.6
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "561775",
@@ -282,22 +140,168 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.0
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "558232",
-    "league": "DED",
-    "home": "Fortuna Sittard",
-    "away": "AZ",
-    "ko_time": "2026-08-22T14:30:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.45,
-    "away_gpg": 1.45,
-    "home_gcpg": 1.45,
-    "away_gcpg": 1.45,
+    "match_id": "561777",
+    "league": "ELC",
+    "home": "Derby County FC",
+    "away": "Cardiff City FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.2
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561783",
+    "league": "ELC",
+    "home": "Queens Park Rangers FC",
+    "away": "Bolton Wanderers FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "560545",
+    "league": "PL",
+    "home": "Nottingham Forest FC",
+    "away": "Leeds United FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.35,
+    "away_gpg": 1.35,
+    "home_gcpg": 1.35,
+    "away_gcpg": 1.35,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561779",
+    "league": "ELC",
+    "home": "Wrexham AFC",
+    "away": "Watford FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "560546",
+    "league": "PL",
+    "home": "Everton FC",
+    "away": "Crystal Palace FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.35,
+    "away_gpg": 1.35,
+    "home_gcpg": 1.35,
+    "away_gcpg": 1.35,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561780",
+    "league": "ELC",
+    "home": "Blackburn Rovers FC",
+    "away": "Middlesbrough FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561782",
+    "league": "ELC",
+    "home": "Southampton FC",
+    "away": "Stoke City FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "560544",
+    "league": "PL",
+    "home": "Ipswich Town FC",
+    "away": "Sunderland AFC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.35,
+    "away_gpg": 1.35,
+    "home_gcpg": 1.35,
+    "away_gcpg": 1.35,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561778",
+    "league": "ELC",
+    "home": "Preston North End FC",
+    "away": "Wolverhampton Wanderers FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "561774",
+    "league": "ELC",
+    "home": "Swansea City AFC",
+    "away": "Sheffield United FC",
+    "ko_time": "2026-08-22T14:00:00Z",
+    "home_draw_pct": 28.0,
+    "away_draw_pct": 28.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567283",
@@ -312,7 +316,24 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "558232",
+    "league": "DED",
+    "home": "Fortuna Sittard",
+    "away": "AZ",
+    "ko_time": "2026-08-22T14:30:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.45,
+    "away_gpg": 1.45,
+    "home_gcpg": 1.45,
+    "away_gcpg": 1.45,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564641",
@@ -327,7 +348,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "559712",
@@ -342,22 +364,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.35
-  },
-  {
-    "match_id": "558629",
-    "league": "SA",
-    "home": "Udinese Calcio",
-    "away": "Como 1907",
-    "ko_time": "2026-08-22T16:30:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558632",
@@ -372,7 +380,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "560547",
@@ -387,7 +396,24 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.6
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "558629",
+    "league": "SA",
+    "home": "Udinese Calcio",
+    "away": "Como 1907",
+    "ko_time": "2026-08-22T16:30:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558234",
@@ -402,7 +428,8 @@
     "home_gcpg": 1.45,
     "away_gcpg": 1.45,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.55
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567279",
@@ -417,7 +444,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.6
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564643",
@@ -432,67 +460,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.2
-  },
-  {
-    "match_id": "559711",
-    "league": "FL1",
-    "home": "Le Mans FC",
-    "away": "Stade Brestois 29",
-    "ko_time": "2026-08-22T18:45:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.5
-  },
-  {
-    "match_id": "558631",
-    "league": "SA",
-    "home": "Genoa CFC",
-    "away": "SSC Napoli",
-    "ko_time": "2026-08-22T18:45:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.3
-  },
-  {
-    "match_id": "559714",
-    "league": "FL1",
-    "home": "ES Troyes AC",
-    "away": "Paris FC",
-    "ko_time": "2026-08-22T18:45:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.6
-  },
-  {
-    "match_id": "559716",
-    "league": "FL1",
-    "home": "OGC Nice",
-    "away": "FC Lorient",
-    "ko_time": "2026-08-22T18:45:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558636",
@@ -507,7 +476,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.05
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "559718",
@@ -522,22 +492,72 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.4
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "554975",
-    "league": "BSA",
-    "home": "Fluminense FC",
-    "away": "Clube do Remo",
-    "ko_time": "2026-08-22T19:00:00Z",
-    "home_draw_pct": 34.8,
-    "away_draw_pct": 34.8,
-    "home_gpg": 1.48,
-    "away_gpg": 1.17,
-    "home_gcpg": 1.22,
-    "away_gcpg": 1.61,
+    "match_id": "559714",
+    "league": "FL1",
+    "home": "ES Troyes AC",
+    "away": "Paris FC",
+    "ko_time": "2026-08-22T18:45:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.2
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "559716",
+    "league": "FL1",
+    "home": "OGC Nice",
+    "away": "FC Lorient",
+    "ko_time": "2026-08-22T18:45:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "558631",
+    "league": "SA",
+    "home": "Genoa CFC",
+    "away": "SSC Napoli",
+    "ko_time": "2026-08-22T18:45:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "559711",
+    "league": "FL1",
+    "home": "Le Mans FC",
+    "away": "Stade Brestois 29",
+    "ko_time": "2026-08-22T18:45:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558235",
@@ -552,7 +572,24 @@
     "home_gcpg": 1.45,
     "away_gcpg": 1.45,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.2
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "554975",
+    "league": "BSA",
+    "home": "Fluminense FC",
+    "away": "Clube do Remo",
+    "ko_time": "2026-08-22T19:00:00Z",
+    "home_draw_pct": 34.8,
+    "away_draw_pct": 34.8,
+    "home_gpg": 1.48,
+    "away_gpg": 1.17,
+    "home_gcpg": 1.22,
+    "away_gcpg": 1.61,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567275",
@@ -567,7 +604,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564645",
@@ -582,7 +620,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.6
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554976",
@@ -597,7 +636,8 @@
     "home_gcpg": 1.22,
     "away_gcpg": 1.23,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554974",
@@ -612,7 +652,8 @@
     "home_gcpg": 1.39,
     "away_gcpg": 0.86,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.1
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558236",
@@ -627,7 +668,8 @@
     "home_gcpg": 1.45,
     "away_gcpg": 1.45,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.0
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "561776",
@@ -642,7 +684,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.1
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558237",
@@ -657,37 +700,8 @@
     "home_gcpg": 1.45,
     "away_gcpg": 1.45,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.5
-  },
-  {
-    "match_id": "560548",
-    "league": "PL",
-    "home": "Manchester City FC",
-    "away": "AFC Bournemouth",
-    "ko_time": "2026-08-23T13:00:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.35,
-    "away_gpg": 1.35,
-    "home_gcpg": 1.35,
-    "away_gcpg": 1.35,
-    "h2h_draws_last8": 0,
-    "draw_odds": 4.6
-  },
-  {
-    "match_id": "559717",
-    "league": "FL1",
-    "home": "Angers SCO",
-    "away": "Lille OSC",
-    "ko_time": "2026-08-23T13:00:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 3.7
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "560549",
@@ -702,7 +716,40 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "559717",
+    "league": "FL1",
+    "home": "Angers SCO",
+    "away": "Lille OSC",
+    "ko_time": "2026-08-23T13:00:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "560548",
+    "league": "PL",
+    "home": "Manchester City FC",
+    "away": "AFC Bournemouth",
+    "ko_time": "2026-08-23T13:00:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.35,
+    "away_gpg": 1.35,
+    "home_gcpg": 1.35,
+    "away_gcpg": 1.35,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567278",
@@ -717,7 +764,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.8
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558238",
@@ -732,7 +780,8 @@
     "home_gcpg": 1.45,
     "away_gcpg": 1.45,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564646",
@@ -747,7 +796,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.8
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "559719",
@@ -762,7 +812,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.9
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "560550",
@@ -777,22 +828,8 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.75
-  },
-  {
-    "match_id": "558635",
-    "league": "SA",
-    "home": "Frosinone Calcio",
-    "away": "Juventus FC",
-    "ko_time": "2026-08-23T16:30:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 4.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558637",
@@ -807,7 +844,24 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.3
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "558635",
+    "league": "SA",
+    "home": "Frosinone Calcio",
+    "away": "Juventus FC",
+    "ko_time": "2026-08-23T16:30:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567281",
@@ -822,7 +876,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 2.94
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564644",
@@ -837,37 +892,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 2.9
-  },
-  {
-    "match_id": "559713",
-    "league": "FL1",
-    "home": "Paris Saint-Germain FC",
-    "away": "Stade Rennais FC 1901",
-    "ko_time": "2026-08-23T18:45:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": null
-  },
-  {
-    "match_id": "558633",
-    "league": "SA",
-    "home": "Atalanta BC",
-    "away": "US Sassuolo Calcio",
-    "ko_time": "2026-08-23T18:45:00Z",
-    "home_draw_pct": 26.0,
-    "away_draw_pct": 26.0,
-    "home_gpg": 1.25,
-    "away_gpg": 1.25,
-    "home_gcpg": 1.25,
-    "away_gcpg": 1.25,
-    "h2h_draws_last8": 0,
-    "draw_odds": 4.33
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558634",
@@ -882,22 +908,40 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.7
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "554977",
-    "league": "BSA",
-    "home": "SE Palmeiras",
-    "away": "CR Vasco da Gama",
-    "ko_time": "2026-08-23T19:00:00Z",
-    "home_draw_pct": 26.1,
-    "away_draw_pct": 31.8,
-    "home_gpg": 1.74,
-    "away_gpg": 1.05,
-    "home_gcpg": 0.83,
-    "away_gcpg": 1.55,
+    "match_id": "559713",
+    "league": "FL1",
+    "home": "Paris Saint-Germain FC",
+    "away": "Stade Rennais FC 1901",
+    "ko_time": "2026-08-23T18:45:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.9
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "558633",
+    "league": "SA",
+    "home": "Atalanta BC",
+    "away": "US Sassuolo Calcio",
+    "ko_time": "2026-08-23T18:45:00Z",
+    "home_draw_pct": 26.0,
+    "away_draw_pct": 26.0,
+    "home_gpg": 1.25,
+    "away_gpg": 1.25,
+    "home_gcpg": 1.25,
+    "away_gcpg": 1.25,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554979",
@@ -912,7 +956,8 @@
     "home_gcpg": 1.43,
     "away_gcpg": 1.22,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554971",
@@ -927,22 +972,24 @@
     "home_gcpg": 1.05,
     "away_gcpg": 1.36,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
-    "match_id": "564642",
-    "league": "PD",
-    "home": "Elche CF",
-    "away": "FC Barcelona",
-    "ko_time": "2026-08-23T19:30:00Z",
-    "home_draw_pct": 27.0,
-    "away_draw_pct": 27.0,
-    "home_gpg": 1.3,
-    "away_gpg": 1.3,
-    "home_gcpg": 1.3,
-    "away_gcpg": 1.3,
+    "match_id": "554977",
+    "league": "BSA",
+    "home": "SE Palmeiras",
+    "away": "CR Vasco da Gama",
+    "ko_time": "2026-08-23T19:00:00Z",
+    "home_draw_pct": 26.1,
+    "away_draw_pct": 31.8,
+    "home_gpg": 1.74,
+    "away_gpg": 1.05,
+    "home_gcpg": 0.83,
+    "away_gcpg": 1.55,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.75
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567280",
@@ -957,7 +1004,24 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 6.8
+    "draw_odds": null,
+    "totals_odds": null
+  },
+  {
+    "match_id": "564642",
+    "league": "PD",
+    "home": "Elche CF",
+    "away": "FC Barcelona",
+    "ko_time": "2026-08-23T19:30:00Z",
+    "home_draw_pct": 27.0,
+    "away_draw_pct": 27.0,
+    "home_gpg": 1.3,
+    "away_gpg": 1.3,
+    "home_gcpg": 1.3,
+    "away_gcpg": 1.3,
+    "h2h_draws_last8": 0,
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554972",
@@ -972,7 +1036,8 @@
     "home_gcpg": 2.09,
     "away_gcpg": 1.18,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554978",
@@ -987,7 +1052,8 @@
     "home_gcpg": 1.59,
     "away_gcpg": 1.59,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554973",
@@ -1002,7 +1068,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 0.96,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.0
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558630",
@@ -1017,7 +1084,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.25
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564639",
@@ -1032,7 +1100,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "558638",
@@ -1047,7 +1116,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.8
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "560551",
@@ -1062,7 +1132,8 @@
     "home_gcpg": 1.35,
     "away_gcpg": 1.35,
     "h2h_draws_last8": 0,
-    "draw_odds": 4.0
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "567277",
@@ -1077,7 +1148,8 @@
     "home_gcpg": 1.25,
     "away_gcpg": 1.25,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.5
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564640",
@@ -1092,7 +1164,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 2.88
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "554970",
@@ -1107,7 +1180,8 @@
     "home_gcpg": 1.55,
     "away_gcpg": 0.87,
     "h2h_draws_last8": 0,
-    "draw_odds": null
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564637",
@@ -1122,7 +1196,8 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 3.2
+    "draw_odds": null,
+    "totals_odds": null
   },
   {
     "match_id": "564631",
@@ -1137,6 +1212,7 @@
     "home_gcpg": 1.3,
     "away_gcpg": 1.3,
     "h2h_draws_last8": 0,
-    "draw_odds": 5.0
+    "draw_odds": null,
+    "totals_odds": null
   }
 ]

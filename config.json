@@ -16,10 +16,25 @@
       "server": "https://ntfy.sh",
       "auth_header": ""
     },
+    "totals": {
+      "enabled": true,
+      "topic": "footballtotals",
+      "server": "https://ntfy.sh",
+      "auth_header": ""
+    },
     "webhook": {
       "enabled": false,
       "url": "REPLACE_ME",
       "auth_header": ""
     }
+  },
+  "totals": {
+    "lines": [0.5, 1.5, 2.5],
+    "sot_league_avg": {
+      "PL": 9.0, "BL1": 9.5, "DED": 9.0, "BSA": 8.5, "PD": 9.0,
+      "FL1": 8.5, "ELC": 9.0, "PPL": 8.5, "SA": 9.0, "CL": 9.5,
+      "EC": 9.0, "SPL": 9.0
+    },
+    "min_edge": 0.0
   }
 }

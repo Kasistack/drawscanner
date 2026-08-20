@@ -83,7 +83,6 @@ def normalize(m):
     out["away_u25_pct"] = to_float(m.get("away_u25_pct")) if m.get("away_u25_pct") not in (None, "") else None
     out["h2h_draws_last8"] = int(to_float(m.get("h2h_draws_last8")))
     out["draw_odds"] = to_float(m.get("draw_odds")) if m.get("draw_odds") not in (None, "") else None
-    out["preseason"] = bool(m.get("preseason", False))
     for flag in OPTIONAL_FLAGS:
         out[flag] = bool(m.get(flag, False))
     return out
@@ -102,17 +101,9 @@ def evaluate(m, cfg):
     fails = []
 
     # --- CORE GATE (draw%) ---
-    # Preseason/early-season teams use historical-fallback draw% -> relaxed floor
-    # so they surface, but tagged so strict-signal picks still rank above them.
-    if m.get("preseason"):
-        floor = t.get("min_draw_pct_preseason", 25.0)
-        tag = f"PRESEASON est (>= {floor:.0f})"
-    else:
-        floor = min_draw
-        tag = f">= {min_draw:.0f}"
-    both_draw = m["home_draw_pct"] >= floor and m["away_draw_pct"] >= floor
+    both_draw = m["home_draw_pct"] >= min_draw and m["away_draw_pct"] >= min_draw
     if both_draw:
-        reasons.append(f"both draw% {tag} ({m['home_draw_pct']:.0f}/{m['away_draw_pct']:.0f})")
+        reasons.append(f"both draw% >= {min_draw:.0f} ({m['home_draw_pct']:.0f}/{m['away_draw_pct']:.0f})")
     else:
         fails.append("draw% gate")
 
@@ -170,8 +161,7 @@ def build_ntfy_body(picks, cfg):
     lines = ["# Draw Scanner - Top Picks", ""]
     for i, p in enumerate(picks, 1):
         m = p["match"]
-        badge = " [PRESEASON EST]" if m.get("preseason") else ""
-        lines.append(f"**{i}. {m['home']} v {m['away']}** ({m['league']}){badge}")
+        lines.append(f"**{i}. {m['home']} v {m['away']}** ({m['league']})")
         lines.append(f"   score {p['score']} | draw odds {m['draw_odds']:.2f} | KO {m['ko_time']}")
         lines.append(f"   {', '.join(p['reasons'][:4])}")
         lines.append("")
@@ -251,8 +241,7 @@ def main():
         results.append(r)
 
     passed = [r for r in results if r["passed"]]
-    # strict-signal (non-preseason) picks rank above preseason estimates
-    passed.sort(key=lambda r: (not r["match"].get("preseason", False), r["score"], r["match"]["draw_odds"]), reverse=True)
+    passed.sort(key=lambda r: (r["score"], r["match"]["draw_odds"]), reverse=True)
 
     print(f"Scanned {len(matches)} matches | {len(passed)} passed core gate\n")
     if not passed:

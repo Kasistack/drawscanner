@@ -211,9 +211,17 @@ import re
 _NOISE = {"fc", "afc", "cf", "united", "city", "town", "athletic", "real",
           "club", "de", "sd", "sc", "ac", "as", "rc", "fk", "cd"}
 
+def _translit(s):
+    # Normalize German umlauts both directions so FD "Köln" and odds "Koln" converge
+    # to the same canonical token.
+    s = s.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
+    # collapse digraph back to base vowel so ae/oe/ue == a/o/u
+    s = s.replace("ae", "a").replace("oe", "o").replace("ue", "u")
+    return s
+
 def norm_name(n):
     """token-strip noise words anywhere, not just suffixes -> comparable core"""
-    n = n.lower()
+    n = _translit(n.lower())
     toks = [t for t in re.split(r"[^a-z0-9]+", n) if t and t not in _NOISE]
     return " ".join(toks)
 
@@ -260,7 +268,6 @@ def build_feed(sec, days, use_odds, use_form):
         a_gpg = hist_goal if a["played"] < MIN_GAMES_FOR_STAT else a["gpg"]
         h_gcpg = hist_goal if h["played"] < MIN_GAMES_FOR_STAT else h["gcpg"]
         a_gcpg = hist_goal if a["played"] < MIN_GAMES_FOR_STAT else a["gcpg"]
-        preseason = h["played"] < MIN_GAMES_FOR_STAT or a["played"] < MIN_GAMES_FOR_STAT
         rec = {
             "match_id": f["match_id"],
             "league": lg,
@@ -274,7 +281,6 @@ def build_feed(sec, days, use_odds, use_form):
             "home_gcpg": round(h_gcpg, 2),
             "away_gcpg": round(a_gcpg, 2),
             "h2h_draws_last8": 0,
-            "preseason": preseason,
         }
         # recent form (best-effort, only if --form; cached per team)
         if use_form:

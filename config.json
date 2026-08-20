@@ -1,9 +1,9 @@
 {
   "thresholds": {
-    "min_draw_pct": 30.0,
+    "min_draw_pct": 28.0,
     "max_combined_avg_goals": 2.3,
-    "min_u25_pct": 55.0,
-    "min_draw_odds": 3.10,
+    "min_u25_pct": 50.0,
+    "min_draw_odds": 3.00,
     "h2h_min_draws_bonus": 2,
     "max_team_avg_goals": 1.3
   },

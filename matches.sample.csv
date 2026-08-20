@@ -1,9 +1,0 @@
-match_id,league,home,away,ko_time,home_draw_pct,away_draw_pct,home_gpg,away_gpg,home_gcpg,away_gcpg,home_u25_pct,away_u25_pct,home_btts_no_pct,away_btts_no_pct,h2h_draws_last8,draw_odds,derby,euro_first_leg,relegation_battle,midtable_idle,away_underdog_solid
-M001,French Ligue 2,Guingamp,Paris FC,2026-08-22T18:00:00,38.0,36.0,1.1,1.0,1.0,1.1,60.0,58.0,52.0,50.0,3,3.4,True,,,,
-M002,Dutch Eredivisie,Heerenveen,Sparta,2026-08-22T14:30:00,25.0,24.0,1.6,1.5,1.4,1.5,40.0,42.0,30.0,28.0,1,3.8,,,,,True
-M003,Italian Serie B,Modena,Cosenza,2026-08-22T19:30:00,33.0,32.0,1.2,1.1,1.1,1.2,56.0,55.0,51.0,49.0,2,3.2,,,,,
-M004,English League One,Bolton,Wigan,2026-08-22T15:00:00,28.0,30.0,1.2,1.1,1.1,1.2,57.0,56.0,50.0,51.0,3,3.3,,,,,
-M005,Scottish Championship,Dundee,Raith,2026-08-22T15:00:00,35.0,34.0,1.0,0.9,1.2,1.1,62.0,60.0,55.0,53.0,4,3.1,,,,True,
-M006,Portuguese Liga 2,Porto B,Penafiel,2026-08-22T17:00:00,31.0,30.0,1.3,1.3,1.3,1.3,55.0,55.0,48.0,47.0,1,3.5,,,,,True
-M007,Brazilian Serie B,Criciuma,Mirassol,2026-08-22T22:00:00,40.0,38.0,1.1,1.2,1.0,1.0,65.0,63.0,58.0,57.0,3,2.9,,,,,
-M008,Spanish Segunda,Eibar,Mirandes,2026-08-22T20:30:00,34.0,33.0,1.2,1.1,1.1,1.0,57.0,56.0,52.0,50.0,2,3.3,,True,,,

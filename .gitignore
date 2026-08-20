@@ -1,5 +1,17 @@
 # Never commit secrets or generated picks
 secrets.json
 draw_picks.json
+matches.live.json
 *.pem
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime output
+totals_picks.json
+odds.cache.json
+odds.cache.totals.json
+matches.sample.*

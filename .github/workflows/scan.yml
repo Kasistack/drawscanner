@@ -9,6 +9,9 @@ on:
 permissions:
   contents: read
 
+env:
+  NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -42,7 +45,6 @@ jobs:
           THEODDS_API_KEY: ${{ secrets.THEODDS_API_KEY }}
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
         run: python3 drawscanner.py --feed matches.live.json
 
       - name: Scan + alert ntfy (totals)
@@ -50,5 +52,4 @@ jobs:
           THEODDS_API_KEY: ${{ secrets.THEODDS_API_KEY }}
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC_TOTALS }}
-          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
         run: python3 totalscanner.py --feed matches.live.json

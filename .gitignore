@@ -1,0 +1,5 @@
+# Never commit secrets or generated picks
+secrets.json
+draw_picks.json
+*.pem
+.env

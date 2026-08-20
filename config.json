@@ -1,0 +1,26 @@
+{
+  "thresholds": {
+    "min_draw_pct": 30.0,
+    "min_draw_pct_preseason": 25.0,
+    "max_combined_avg_goals": 2.3,
+    "min_u25_pct": 55.0,
+    "min_draw_odds": 3.10,
+    "h2h_min_draws_bonus": 2,
+    "max_team_avg_goals": 1.3
+  },
+  "situational_boost": 1,
+  "top_n": 5,
+  "alerts": {
+    "ntfy": {
+      "enabled": true,
+      "topic": "footballdraws",
+      "server": "https://ntfy.sh",
+      "auth_header": ""
+    },
+    "webhook": {
+      "enabled": false,
+      "url": "REPLACE_ME",
+      "auth_header": ""
+    }
+  }
+}

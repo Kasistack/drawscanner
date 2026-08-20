@@ -1,0 +1,46 @@
+name: draw-scan
+
+on:
+  schedule:
+    - cron: "0 6 * * *"        # daily 06:00 UTC — fetch + scan (no form)
+    - cron: "30 6 * * 0"       # weekly Sun 06:30 UTC — with --form
+  workflow_dispatch:           # manual run button
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Decide form flag
+        id: cfg
+        run: |
+          # weekly run (Sun) gets --form; daily does not
+          if [ "$(date -u +%u)" = "7" ]; then
+            echo "formflag=--form" >> "$GITHUB_OUTPUT"
+          else
+            echo "formflag=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch live feed
+        env:
+          THEODDS_API_KEY: ${{ secrets.THEODDS_API_KEY }}
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: python3 fetcher.py --days 7 ${{ steps.cfg.outputs.formflag }}
+
+      - name: Scan + alert ntfy
+        env:
+          THEODDS_API_KEY: ${{ secrets.THEODDS_API_KEY }}
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+        run: python3 drawscanner.py --feed matches.live.json

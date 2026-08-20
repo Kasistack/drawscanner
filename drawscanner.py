@@ -26,7 +26,7 @@ REQUIRED = [
     "home_draw_pct", "away_draw_pct",
     "home_gpg", "away_gpg", "home_gcpg", "away_gcpg",
     "home_u25_pct", "away_u25_pct",
-    "h2h_draws_last8", "draw_odds",
+    "h2h_draws_last8", "draw_odds", "totals_odds",
 ]
 OPTIONAL_FLAGS = [
     "must_win_home", "must_win_away", "derby", "euro_first_leg",

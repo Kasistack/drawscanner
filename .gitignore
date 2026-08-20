@@ -2,6 +2,9 @@
 secrets.json
 draw_picks.json
 matches.live.json
+odds.cache.json
+odds.cache.totals.json
+totals_picks.json
 *.pem
 .env
 
@@ -10,8 +13,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Runtime output
-totals_picks.json
-odds.cache.json
-odds.cache.totals.json
-matches.sample.*
+# Sample data (local test fixtures)
+matches.sample.csv
+matches.sample.json

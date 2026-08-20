@@ -12,7 +12,3 @@ totals_picks.json
 __pycache__/
 *.pyc
 *.pyo
-
-# Sample data (local test fixtures)
-matches.sample.csv
-matches.sample.json

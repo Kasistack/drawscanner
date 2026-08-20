@@ -50,8 +50,7 @@ def http_get(url, headers=None, timeout=25, token=None):
 def fd_get(path, sec, sleep=True, retries=3):
     last = None
     for attempt in range(retries):
-        s, b = http_get("https://api.football-data.org/v4/" + path,
-                        headers={"X-Auth-Token": sec["football_data"]})
+        s, b = http_get("https://api.football-data.org/v4/" + path, headers={"X-Auth-Token": sec["football_data"]})
         if s == 200:
             if sleep:
                 time.sleep(FD_SLEEP)
